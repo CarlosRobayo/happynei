@@ -1,0 +1,26 @@
+.contenedor {
+    /*background: #069;*/
+    padding: 3% 0 3% 0;
+    border-bottom-style: dotted; border-width: 1px;
+}
+
+.contenedor2 {
+    /*background: #060;*/
+    margin: 5% 0 3% 0;
+    float: left;
+    padding: 3% 0 3% 0;
+    border-right-style: dotted; border-width: 1px;
+    width: 50%;
+}
+
+.contenedor3 {
+    /*background: #060;*/
+    margin: 5% 0 3% 0;
+    float: right;
+    padding: 3% 0 3% 0;
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
