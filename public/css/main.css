@@ -1,5 +1,6 @@
 .contenedor {
-    padding: 5% 0 3% 0;
+    /*background: #069;*/
+    padding: 3% 0 3% 0;
     border-bottom-style: dotted; border-width: 1px;
 }
 
@@ -22,8 +23,19 @@
     font-family: 'Pacifico', cursive;
 }
 
-.jumbotron {
-    border-radius: 20px;
-    margin: 4% auto;
-    width: 80%;
+.img {
+    margin-right: -20%;
+}
+
+.img2 {
+    margin-left: -20%;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
 }
