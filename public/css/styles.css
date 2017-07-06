@@ -1,15 +1,12 @@
 .contenedor {
     padding: 5% 0 3% 0;
     border-bottom-style: dotted; border-width: 1px;
+    margin: 0 0 3% 0;
 }
-
-/*.row {
-    background-image: url("../img/fondo1.jpg");
-    background-repeat: no-repeat;
-}*/
 
 .contenedor2 {
     background-image: url("../img/fondo1.jpg");
+    border-radius: 40px;
     margin: 5% 1% 3% 0;
     padding: 3% 0 3% 0;
     width: 49%;
@@ -17,6 +14,7 @@
 
 .contenedor3 {
     background-image: url("../img/fondo1.jpg");
+    border-radius: 40px;
     margin: 5% 0 3% 1%;
     padding: 3% 0 3% 0;
     width: 49%;
@@ -24,6 +22,10 @@
 
 .font {
     font-family: 'Pacifico', cursive;
+}
+
+.colorFont {
+    color: #2dc698;
 }
 
 a {
@@ -35,13 +37,44 @@ a:hover {
     text-decoration: none;
 }
 
+.row {
+    border-bottom-style: dotted; border-width: 1px;
+    margin: 0 0 5% 0;
+    padding: 0 0 5% 0;
+}
+
 .jumbotron {
+    background-color: #fff;
     border-radius: 20px;
     margin: 7% auto 6% auto;
+    text-align: justify;
     width: 80%;
+}
+
+.jumbotron2 {
+    margin: 0 auto 0 auto;
 }
 
 #footer {
     background: #000;
     padding: 3% 0;
+}
+
+.marca_agua {
+    margin: -40% 0 0 23%;
+    opacity: .15;
+}
+
+.marca_agua2 {
+    margin: -40% 0 0 -15%;
+    opacity: .15;
+}
+
+#video {
+    margin: 0 0 5% 0;
+    text-align: center;
+}
+
+video {
+    border-radius: 40px;
 }
